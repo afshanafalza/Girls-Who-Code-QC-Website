@@ -1,0 +1,358 @@
+.hidden {
+    display: none;
+}
+
+.nav {
+    background-color: #F56DA6;
+}
+
+.options-font {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #F0F0F0;
+    background-color: #F56DA6; 
+    cursor: pointer;
+    border: none;
+    transition: color .25s ease, transform .1s;
+}
+
+.options-font:hover {
+    transform: scale(1.1);
+    color: #f7247c;
+}
+
+#search {
+    width: 180px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #F0F0F0;
+    color: #F56DA6;
+}
+
+#search-font {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    color: #F56DA6;
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+.black-body-font {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    color: #0F0F0F;
+}
+
+.pink-body-font {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #F56DA6;
+    transition: color .25s ease, transform .25s;
+}
+
+.pink-body-font:hover {
+    color: #fd4491;
+}
+
+
+#picture-holder {
+    width: 260px; /* you can use % */
+    height: auto;
+    /* background-color: #F56DA6; */
+    transition: background-color .2s ease, transform .2s;
+
+}
+
+#picture-holder:hover {
+    transform: scale(1.1);
+}
+
+.black-body-font-small {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #0F0F0F;
+}
+
+#why {
+    border-color: #f384b2;
+    background-color: #f384b2;
+    color: white;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 4px;
+    size: 100%;
+    width: 600px;
+    height: 105px;
+    font-size: 35px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .10s ease, transform .10s;
+}
+
+#why:hover {
+    background-color: #F56DA6;
+    border-color: #F56DA6;
+    color: #F0F0F0
+}
+
+.light-pink-body-font {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #f8bcd4;
+    transition: color .25s ease, transform .10s;
+}
+
+.body-font-small-thick {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+}
+
+.white-bg {
+    background-color: #F0F0F0;
+}
+
+.pink-bg {
+    height: 10%;
+    background-color: #CEF1BB;
+}
+
+.green-bg {
+    height: 10%;
+    background-color: #f0f0f0;
+}
+
+.blue-bg {
+    height: 10%;
+    background-color: #8FC7EC;
+}
+
+#mission-container {
+    font-family: 'Figtree', sans-serif;
+    background-color: #F56DA6;
+    height: 200px;
+    width: 900px;
+    border-radius: 25px;
+    transition: background-color .60s ease, transform .60s;
+}
+
+#mission-container:hover {
+    background-color: #fd4491;
+}
+
+#mission-header {
+    font-weight: 800;
+    font-size: 40px;
+    color: #f0f0f0;
+}
+
+#mission-body {
+    font-weight: 500;
+    font-size: 15px;
+    color: #f0f0f0;
+}
+
+.stat-header {
+    font-family: 'Figtree', sans-serif;
+    color: #f0f0f0;
+    font-weight: 800;
+    font-size: 45px;
+    transition: color .30s ease, transform .30s;
+}
+
+.stat-bold-header {
+    font-family: 'Figtree', sans-serif;
+    color: #F679AD;
+    font-weight: 900;
+    font-size: 45px;
+    transition: color .30s ease, transform .30s;
+}
+
+.stat-sub-header {
+    font-family: 'Figtree', sans-serif;
+    color: #f0f0f0;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.stat-body {
+    font-family: 'Figtree', sans-serif;
+    color: #f0f0f0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#stat-pic-1 {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    /* background: conic-gradient(pink 0% 50%, white 50% 75%, black 75%); */
+    /* background-image: conic-gradient(
+        #BDB2FF 0deg, #BDB2FF 70deg,
+        #9BF6FF 70deg, #9BF6FF 360deg); */
+}
+
+#stat-pic-2 {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+}
+
+.stat-container {
+    transition: background-color .2s ease, transform .2s;
+}
+
+.stat-container:hover {
+    transform: scale(1.1);
+}
+
+.key-circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+}
+
+.key-name {
+    font-family: 'Figtree', sans-serif;
+    color: #f0f0f0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.api-link:link {
+    text-decoration: none;
+}
+
+.api-link:visited {
+    text-decoration: none;
+}
+
+.api-link:hover {
+    text-decoration: none;
+}
+
+.api-link:active {
+    text-decoration: none;
+}
+
+.purple-bg-header {
+    font-family: 'Figtree', sans-serif;
+    color: #FC9CC6;
+    font-weight: 800;
+    font-size: 45px;
+    transition: color .30s ease, transform .30s;
+}
+
+.purple-bg-header-bold {
+    font-family: 'Figtree', sans-serif;
+    color: #0f0f0f;
+    font-weight: 800;
+    font-size: 45px;
+    transition: color .30s ease, transform .30s;
+}
+
+.white-bg-body {
+    font-family: 'Figtree', sans-serif;
+    color: #F56DA6;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.gwc-group-pic {
+    max-width: 330px;
+    border-radius: 1%;
+    transition: color .18s ease, transform .18s;
+}
+
+.gwc-group-pic:hover {
+    transform: scale(1.1);
+}
+
+.white-bg-subheader {
+    font-family: 'Figtree', sans-serif;
+    color: #F56DA6;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.identity-button {
+    width: 300px;
+    height: 80px;
+    border-radius: 2%;
+    font-family: 'Figtree', sans-serif;
+    color: #f0f0f0;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#woman-identity {
+    background-color: #FC9CC6;
+    color: #2F2F2F;
+    transition: background-color .18s ease, transform .18s;
+}
+
+#nb-identity {
+    background-color: #FC9CC6;
+    color: #2F2F2F;
+    transition: background-color .18s ease, transform .18s;
+}
+
+#man-identity {
+    background-color: #FC9CC6;
+    color: #2F2F2F;
+    transition: background-color .18s ease, transform .18s;
+}
+
+#woman-identity:hover {
+    background-color: #0f0f0f;
+    color: #FC9CC6;
+}
+
+#nb-identity:hover {
+    background-color: #0f0f0f;
+    color: #FC9CC6;
+}
+
+#man-identity:hover {
+    background-color: #0f0f0f;
+    color: #FC9CC6;
+}
+
+#action {
+    width: 900px;
+    height: 340px;
+    border-radius: 1%;
+    font-family: 'Figtree', sans-serif;
+    background-color: #FC9CC6;
+    transition: background-color .18s ease, transform .18s;
+}
+
+#action-header {
+    padding-left: 50px;
+    padding-top: 50px;
+    font-family: 'Figtree', sans-serif;
+    color: #2F2F2F;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#action-body {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    font-family: 'Figtree', sans-serif;
+    color: #3B3B3B;
+    font-weight: 500;
+    font-size: 17px;
+}
